@@ -1,0 +1,41 @@
+name: Research question or contradicting result
+description: A question about a method or a result, or evidence that contradicts something we published.
+labels: ["research"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For questions about a paper or a model card, email research@qomiralabs.com instead.
+        Use this when the question concerns code in this repository, or when you have a
+        result that disagrees with ours and the harness is here.
+
+  - type: input
+    id: reference
+    attributes:
+      label: What this concerns
+      description: The paper, model, benchmark, or file.
+      placeholder: Aperture 1 model card, settlement latency table
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: The question or the discrepancy
+      description: If you measured something different from us, say what you got and what we reported.
+    validations:
+      required: true
+
+  - type: textarea
+    id: method
+    attributes:
+      label: Your method
+      description: Commands, configuration, seeds, hardware, and the number of runs. A claim carries a number.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else
+      description: Related work, prior discussion, or a hypothesis about the cause.
