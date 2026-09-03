@@ -1,0 +1,61 @@
+name: Bug report
+description: Something in this repository behaves incorrectly.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A reproduction is the difference between a bug we can fix and one we cannot.
+        If this is a security vulnerability, close this and email security@qomiralabs.com.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you observed, and what you expected instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Numbered steps, or a minimal snippet or repository we can run.
+      placeholder: |
+        1. Install with ...
+        2. Run ...
+        3. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or output
+      description: Paste the error. No screenshots of text, please.
+      render: shell
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Release, tag, or commit SHA.
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, runtime version, and hardware if it is relevant.
+      placeholder: macOS 15.3, Python 3.12.4, M3 Max
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this is not a duplicate
+          required: true
+        - label: I am on the latest release, or I have said which version I am on
+          required: true
