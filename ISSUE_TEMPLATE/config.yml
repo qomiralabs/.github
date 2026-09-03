@@ -1,0 +1,17 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/qomiralabs/.github/blob/main/SECURITY.md
+    about: Do not open an issue. Report privately to security@qomiralabs.com.
+  - name: Research or paper correspondence
+    url: mailto:research@qomiralabs.com
+    about: Questions about a publication, a model card, or an evaluation.
+  - name: Juncta support
+    url: https://juncta.xyz
+    about: Anything about the Juncta product. Its own team is faster.
+  - name: CelerFi support
+    url: https://celerfi.network
+    about: Anything about the CelerFi product. Its own team is faster.
+  - name: Anything else
+    url: mailto:hello@qomiralabs.com
+    about: General enquiries.
