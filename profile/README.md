@@ -36,6 +36,8 @@ Six letters, six lines of work, one company. Pronounced koh-MEE-ra.
 
 **Foundations.** The training and serving systems everything else runs on. Data collection, curation, and evaluation sets. Confidential deployment, supply chain, and the integrity of systems that hold value.
 
+**Physical AI.** Spatial models small enough to run on the machine. The environments these systems will be deployed into and that nobody has captured. Whether a policy survives dust, heat and ground that is not level, and the control layer that decides whether it can be deployed at all.
+
 **Safety, privacy and governance.** Whether a model refuses, in the language it is asked. What it remembers about the people in its data. Release norms, independent audit, and whose rules apply where.
 
 ## Products
