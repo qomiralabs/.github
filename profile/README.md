@@ -46,9 +46,6 @@ The hard part of this work is expensive, and it does not get cheaper by being do
 
 **[Juncta](https://juncta.xyz).** The internet capital market for on-chain assets. Spot trading, lending, perpetuals, options, launchpad, and native RWA tokenization on one liquidity architecture, so no capital is trapped in a silo.
 
-**[CelerFi](https://celerfi.network).** Many chains. One integration. Node access, enriched on-chain data, real-time event streaming, payments, security, and yield infrastructure through one API key, one dashboard, and one bill.
-
-**[SPP](https://spp-protocol.org).** A verifiable meter for machine services. An open protocol that ties a payment to evidence of the work it paid for, so the buyer can check the bill and the money comes back when the evidence fails.
 
 All three are in development. None is live yet.
 
